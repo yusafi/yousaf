@@ -1,0 +1,65 @@
+* {
+  transition: 0.5s;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav ul li a:hover {
+  background-color: #4d698f92;
+  border-radius: 10px;
+  transform: scale(0.9);
+}
+
+#home {
+  background: url(../images/home.jpg);
+  height: 100vh;
+  width: 100%;
+  /* object-fit: cover; */
+  background-size: cover;
+}
+
+#portfolio img:hover {
+  transform: scale(0.9);
+}
+
+#para1:hover {
+  transition: 0.5s;
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+#hirebtn:hover {
+  background-color: #84bec092;
+  color: white;
+  letter-spacing: 2px;
+  transition: 0.4s;
+  transform: scale(1.1);
+  /* used for making tranform in  */
+}
+
+.skillscard:hover {
+  transform: scale(0.86);
+  background-color: #5e94e13b;
+}
+
+
+
+#contactme {
+  background-color: rgba(104, 132, 142, 0.292);
+  border-radius: 50px;
+}
+
+#sendbutton:hover {
+  background-color: #4c92ae92;
+  color: white;
+  letter-spacing: 2px;
+  transform: scale(0.9);
+}
+
+footer span:hover {
+  letter-spacing: 1px;
+  transform: scale(0.9);
+
+  cursor: pointer;
+}
